@@ -1,0 +1,44 @@
+@import '../../../variables';
+
+.ambasador-section {
+    padding:30px 30px 50px 43px;
+    h3 {
+        font-family:$proxima-xbold;
+        color:$main;
+        font-size:37px;
+        line-height:41px;
+        span {
+            color:$black;
+            display:block;
+        }
+        @media(max-width:767px) {
+            font-size:26px;
+            line-height:31px;
+        }
+    }
+    p {
+        font-size:16px;
+        font-family:$main-r;
+        line-height:24px;
+        color:#231F20;
+        strong {
+            font-family:$main-b;
+        }
+    }
+    div {
+        font-family:$proxima-xbold;
+        color:$main;
+        font-size:28px;
+        line-height:31px;
+        &.white {
+            color:#fff;
+        }
+        @media(max-width:767px) {
+            font-size:22px;
+            line-height:27px;
+        }
+    }
+    @media(max-width:767px) {
+        padding:20px;
+    }
+}

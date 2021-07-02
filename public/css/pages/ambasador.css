@@ -1,0 +1,61 @@
+.ambasador-section {
+  padding: 30px 30px 50px 43px;
+}
+
+.ambasador-section h3 {
+  font-family: ProximaNova-Extrabld, Arial, Helvetica, sans-serif;
+  color: #DBB57F;
+  font-size: 37px;
+  line-height: 41px;
+}
+
+.ambasador-section h3 span {
+  color: #000000;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .ambasador-section h3 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+}
+
+.ambasador-section p {
+  font-size: 16px;
+  font-family: Montserrat-Regular, Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  color: #231F20;
+}
+
+.ambasador-section p strong {
+  font-family: Montserrat-Bold, Arial, Helvetica, sans-serif;
+}
+
+.ambasador-section div {
+  font-family: ProximaNova-Extrabld, Arial, Helvetica, sans-serif;
+  color: #DBB57F;
+  font-size: 28px;
+  line-height: 31px;
+}
+
+.ambasador-section div.white {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .ambasador-section div {
+    font-size: 22px;
+    line-height: 27px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ambasador-section {
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=ambasador.css.map */
+
+/*# sourceMappingURL=ambasador.css.map */

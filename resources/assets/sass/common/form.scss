@@ -1,0 +1,39 @@
+form{
+	input{
+	    border: 1px solid #707070 !important;
+	    color: $black;
+	    display: block;
+	    font-size: 14px;
+	    height: 24px;
+	    margin-bottom: 20px;
+	    padding: 0 20px;
+	    width: 100%;
+	    font-family: $second-r;
+	    transition: all 500ms ease;
+		outline:none;
+		border-radius:0 !important;
+	}
+	textarea{
+	    border: 1px solid#707070 !important;
+	    color: $black;
+	    display: block;
+	    font-size: 14px;
+	    width: 100%;
+	    border-radius: 0 !important;
+	    font-family: $second-r;
+	    transition: all 500ms ease;
+	    padding: 10px 20px;
+		outline:none;
+		height:52px;
+	}
+	button{
+		outline:none !important;
+	}
+	.invalid-feedback{
+		font-family:$main-r;
+		font-size:12px;
+		margin-bottom:10px;
+		color:red;
+		margin-top:-10px;
+	}
+}

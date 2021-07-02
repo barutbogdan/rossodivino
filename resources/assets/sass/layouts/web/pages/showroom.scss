@@ -1,0 +1,106 @@
+@import '../../../variables';
+
+.show-section {
+    padding:30px 30px 50px 43px;
+}
+.showroom-slide {
+    padding:0 50px;
+    margin-top:46px;
+    position:relative;
+    .item {
+        height:100%;
+        a {
+            height:100%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border:1px solid #707070;
+            position:relative;
+            &:before {
+                content: "";
+                width: 0;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: rgba(0, 0, 0, 0.7);
+                opacity: 0;
+                transition: all .3s;
+            }
+            &:hover {
+                &:before {
+                    opacity:1;
+                    width:100%;
+                }
+                .r-zoom {
+                    opacity:1;
+                    transform:translate(-50%,-50%) rotate(90deg);
+                }
+            }
+            .r-zoom {
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                width:60px;
+                height:60px;
+                border-radius:50%;
+                border:1px solid #fff;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                opacity:0;
+                transition:all .3s;
+                i {
+                    color:#fff;
+                    font-size:15px;
+                }
+            }
+        }
+    }
+    .owl-nav {
+        button {
+            position:absolute;
+            top:50%;
+            transition:all .3s;
+            transform:translateY(-50%);
+            &.owl-prev {
+                left:10px;
+            }
+            &.owl-next {
+                right:10px;
+            }
+            span {
+                display:none;
+            }
+            .fas {
+                font-size:30px;
+                color:$black;
+                transition:all .3s;
+            }
+            &:focus {
+                outline:0;
+            }
+            &:hover {
+                .fas {
+                    color:$black;
+                }
+            }
+        }
+    }
+    @media(max-width:1240px) {
+        .owl-nav {
+            button {
+                &.owl-prev {
+                    left:23px;
+                }
+                &.owl-next {
+                    right:23px;
+                }
+            }
+        }
+    }
+    @media(max-width:767px) {
+        margin-top:30px;
+    }
+}

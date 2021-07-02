@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "admin-lte": "^2.3.7",
+    "bootstrap": "^4.0.0-alpha.3",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "icheck": "^1.0.2",
+    "ionicons": "^3.0.0",
+    "jquery": "^3.1.0",
+    "laravel-elixir": "^6.0.0-9",
+    "laravel-elixir-clean": "^0.1.1",
+    "laravel-elixir-vue": "^0.1.4",
+    "laravel-elixir-webpack-official": "^1.0.2",
+    "lodash": "^4.16.6",
+    "toastr": "^2.1.2",
+    "vue": "^1.0.26",
+    "vue-resource": "^0.9.3"
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
+  "dependencies": {
+    "express": "^4.15.5",
+    "ioredis": "^3.1.4",
+    "popper.js": "^1.12.5",
+    "socket.io": "^2.0.3",
+    "sweetalert2": "^7.0.0"
+  }
+}

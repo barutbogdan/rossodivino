@@ -1,0 +1,88 @@
+@import '../../../variables';
+
+.contact-section {
+	padding:0 40px 30px;
+	p {
+		strong {
+			font-family:$main-b;
+		}
+	}
+	form {
+		dl {
+			display:flex;
+			height:40px;
+			:is(dt, dd) {
+				display:block;
+			}
+			dt {
+				width:40%;
+			}
+			dd {
+				width:60%;
+			}
+			&.for-textarea {
+				height:65px;
+			}
+		}
+	}
+	.small-title {
+		color:$main;
+		font-family:$bebas;
+		text-transform:uppercase;
+		font-size:16px;
+		line-height:24px;
+	}
+	.to-right {
+		div {
+			position:relative;
+			display:flex;
+			align-items:flex-start;
+			input {
+				width:14px;
+				height:15px;
+				border-radius:0 !important;
+				border:1px solid #707070 !important;
+				margin-bottom:0;
+				margin-right:5px;
+			}
+			label {
+				width:200px;
+			}
+		}
+	}
+	@media(min-width:768px) {
+		.g-recaptcha {
+			margin-left:auto;
+			margin-right:auto;
+		}
+	}
+
+	@media(max-width:1240px) {
+		padding-right:10px;
+	}
+	@media(max-width:991px) {
+		padding-right:20px;
+		padding-left:20px;
+	}
+	@media(max-width:767px) {
+		form {
+			dl {
+				dt {
+					font-size:13px;
+					width:30%;
+				}
+				dd {
+					width:70%;
+				}
+			}
+		}
+		.to-right {
+			width:70%;
+		}
+	}
+}
+#map {
+	height:330px;
+	width:100%;
+	border:1px solid #707070;
+}

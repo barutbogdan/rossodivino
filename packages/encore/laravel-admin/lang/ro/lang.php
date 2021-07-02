@@ -1,0 +1,140 @@
+<?php
+
+return [
+    'online'                => 'Online',
+    'login'                 => 'Autentificare',
+    'logout'                => 'Deconectare',
+    'setting'               => 'Setare',
+    'name'                  => 'Nume',
+    'username'              => 'Nume de utilizator',
+    'password'              => 'Parolă',
+    'password_confirmation' => 'Confirmare parolă',
+    'remember_me'           => 'Ține-mă minte',
+    'user_setting'          => 'Setare utilizator',
+    'avatar'                => 'Avatar',
+    'image'                 => 'Imagine',
+    'locale'                => 'Limbă',
+
+    'list'          => 'Listă',
+    'new'           => 'Nou',
+    'create'        => 'Crează',
+    'delete'        => 'Șterge',
+    'remove'        => 'Elimină',
+    'edit'          => 'Editează',
+    'view'          => 'Vizualizează',
+    'browse'        => 'Navighează',
+    'reset'         => 'Resetează',
+    'export'        => 'Exportă',
+    'batch_delete'  => 'Ștergere multiplă',
+    'save'          => 'Salvează',
+    'refresh'       => 'Reîmprospătează',
+    'order'         => 'Comandă',
+    'expand'        => 'Extinde',
+    'collapse'      => 'Restrânge',
+    'filter'        => 'Filtrează',
+    'close'         => 'Închide',
+    'show'          => 'Afișează',
+    'entries'       => 'intrări',
+    'captcha'       => 'Captcha',
+    'change'        => 'Modifică',
+
+    'action'           => 'Acțiune',
+    'title'            => 'Titlu',
+    'description'      => 'Descriere',
+    'back'             => 'Înapoi',
+    'back_to_list'     => 'Înapoi la Listă',
+    'submit'           => 'Trimite',
+    'menu'             => 'Meniu',
+    'input'            => 'Introdu',
+    'succeeded'        => 'A reușit',
+    'failed'           => 'A eșuat',
+    'delete_confirm'   => 'Sigur doriți să ștergeți acest articol?',
+    'delete_succeeded' => 'Ștergerea a reușit!',
+    'delete_failed'    => 'Ștergerea a eșuat!',
+    'update_succeeded' => 'Actualizarea a reușit!',
+    'update_failed'    => 'Actualizarea a eșuat!',
+    'save_succeeded'   => 'Salvarea a reușit!',
+    'refresh_succeeded'=> 'Reîmprospătarea a reușit!',
+    'login_successful' => 'Autentificare reușită',
+
+    'choose'        => 'Selectează',
+    'choose_file'   => 'Selectează fișier',
+    'choose_image'  => 'Selectează imagine',
+
+
+    'more'          => 'Mai multe',
+    'deny'          => 'Acces refuzat',
+
+    'confirm_label'       => 'Confirmă',
+
+    'administrator' => 'Administrator',
+    'roles'         => 'Roluri',
+    'permissions'   => 'Permisiuni',
+    'slug'          => 'Slug',
+
+    'created_at'    => 'Creat la',
+    'updated_at'    => 'Actualizat la',
+
+    'alert'         => 'Alertă',
+
+    'parent_id'     => 'Părinte',
+    'icon'          => 'Iconiță',
+    'uri'           => 'URI',
+
+    'operation_log'       => 'Log de operațiuni',
+    'parent_select_error' => 'Eroare de selectare a părintelui',
+
+    'pagination'    => [
+        'range'  => 'Se afișează :first la :last din :total intrări',
+    ],
+
+    'users'         => 'Utilizatori',
+    'admin'         => 'Admin',
+    'dashboard'     => 'Tablou de bord',
+    'member_since'  => 'Membru din',
+    'site_content'  => 'Conținut site',
+
+    'settings'      => 'Setări',
+    'status'        => 'Status',
+    'key'           => 'Cheie',
+    'value'         => 'Valoare',
+    'active'        => 'Activ',
+    'inactive'      => 'Inactiv',
+    'date'          => 'Date',
+
+    'gallery'               => 'Galerie',
+    'project'               => 'Proiect',
+    'projects'              => 'Proiecte',
+    'projects_images'       => 'Imagini proiect',
+    'realisations'          => 'Realizări',
+    'testimonials'          => 'Testimoniale',
+
+    'translations'          => 'Traduceri',
+    'translation_distinct'  => 'Câmpul are o valoare duplicată.',
+    'translation_required'  => 'Este necesar să aveți minim o traducere.',
+
+    'image_size_of'         => 'Dimensiunea imagini de :size.',
+
+    'no_image_found'        => 'Nicio imagine găsită.',
+    'no_translation_found'  => 'Nicio traducere găsită.',
+
+    'namespace'             => 'Namespace',
+    'group'                 => 'Grup',
+    'item'                  => 'Articol',
+    'text'                  => 'Text',
+
+    'profession'            => 'Profesie',
+    'services'              => 'Servicii',
+    'slides'                => 'Carusele',
+
+    'yes'                   => 'Da',
+    'no'                    => 'Nu',
+
+    'email_templates'       => 'Șabloane de e-mail',
+    'template'              => 'Șablon',
+    'subject'               => 'Subiect',
+    'sender_name'           => 'Numele expeditorului',
+    'sender_address'        => 'Adresa expeditorului',
+    'extend_layout'         => 'Extindere șablon',
+    'content'               => 'Conținut',
+];

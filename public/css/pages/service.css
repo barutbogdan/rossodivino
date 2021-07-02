@@ -1,0 +1,127 @@
+.service-section {
+  padding: 30px 10px 30px 43px;
+}
+
+.service-section p strong {
+  font-family: Montserrat-Bold, Arial, Helvetica, sans-serif;
+}
+
+.service-section .service-slide {
+  width: 90%;
+  margin: 40px auto 0;
+  position: relative;
+}
+
+.service-section .service-slide .owl-stage-outer {
+  display: flex;
+}
+
+.service-section .service-slide .owl-stage {
+  display: flex;
+}
+
+.service-section .service-slide .owl-stage .owl-item {
+  height: 100%;
+}
+
+.service-section .service-slide .item {
+  height: 100%;
+}
+
+.service-section .service-slide .item a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #707070;
+  position: relative;
+}
+
+.service-section .service-slide .item a:hover:before {
+  opacity: 1;
+  width: 100%;
+}
+
+.service-section .service-slide .item a:hover .r-zoom {
+  opacity: 1;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.service-section .service-slide .item a:before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: all .3s;
+}
+
+.service-section .service-slide .item a .r-zoom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.service-section .service-slide .item a .r-zoom i {
+  color: #fff;
+  font-size: 15px;
+}
+
+.service-section .service-slide .owl-nav button {
+  position: absolute;
+  top: 50%;
+  transition: all .3s;
+  transform: translateY(-50%);
+}
+
+.service-section .service-slide .owl-nav button.owl-prev {
+  left: -30px;
+}
+
+.service-section .service-slide .owl-nav button.owl-next {
+  right: -30px;
+}
+
+.service-section .service-slide .owl-nav button span {
+  display: none;
+}
+
+.service-section .service-slide .owl-nav button .fas {
+  font-size: 30px;
+  color: #000000;
+  transition: all .3s;
+}
+
+.service-section .service-slide .owl-nav button:focus {
+  outline: 0;
+}
+
+.service-section .service-slide .owl-nav button:hover .fas {
+  color: #000000;
+}
+
+@media (max-width: 1240px) {
+  .service-section .service-slide .owl-nav button.owl-prev {
+    left: 23px;
+  }
+  .service-section .service-slide .owl-nav button.owl-next {
+    right: 23px;
+  }
+}
+
+/*# sourceMappingURL=service.css.map */
+
+/*# sourceMappingURL=service.css.map */

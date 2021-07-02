@@ -1,0 +1,76 @@
+@import '../../../variables';
+
+.project-section{
+	.left-side{
+		ul{
+			li{
+				width:100%;
+			    border-radius: 6px;
+			    margin-bottom: 8px;
+			    border: 1px solid #e5e5e5;
+			    transition: all 0.5s ease;
+				text-align:left;
+				a{
+				    font-size: 15px;
+				    line-height: 28px;
+				    color: #848484;
+				    transition: all 0.5s ease;
+				    font-family: $main-r;
+					display:block;
+					padding: 10px 20px;
+					i{
+						font-size:12px;
+						margin-left:10px;
+					}
+				}
+				&:hover{
+					border-color:$light;
+					background:$light;
+					a{
+						color:$white;
+					}
+				}
+			}
+		}
+	}
+	.right-side{
+		h2{
+			font-size: 30px;
+		    line-height: 36px;
+		    color: $black-color;
+		    padding-top: 36px;
+		    padding-bottom: 11px;
+		    font-family: $main-m;		
+		}
+		.txt{
+			p{
+				font-size: 14px;
+			    line-height: 26px;
+			    color: #848484;
+			    font-weight: 400;
+			    font-family: $second-r;
+			}
+		}
+		.project-slider{
+			.item{
+				a{
+					display:inline-block;
+					img{
+						border-radius:5px;
+					}
+				}
+			}
+		}
+	}
+}
+@media(max-width:991px){
+	.project-section{
+		.left-side{
+			order:2;
+		}
+		.right-side{
+			order:1;
+			margin-bottom:30px;
+		}
+	}
+}
