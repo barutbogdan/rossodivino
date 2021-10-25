@@ -10,37 +10,30 @@
     <!-- website container -->
     <div class="wrapper">
 
-        <!-- header content -->
-        <header>
-            @include('layouts.web.includes.header')
-        </header>
        @if (strpos($_SERVER['HTTP_USER_AGENT'],'Chrome-Lighthouse') == false  && strpos($_SERVER['HTTP_USER_AGENT'],'pingdom' ) == false )
-        <!-- main content -->
-        <div id="main">
-            <div class="main-container default">
-                <div class="main-inner">
-                    
-                    <div class="main-content">
-                        @yield('breadcrumb')
-                        <div class="inner-wrap">
-                            
-                            @yield('content')
-                        </div>
-                    </div>
-                </div>
-                @include('partials.fixed-aside')
-                
-            </div>
-        </div>
+       
+            <!-- header content -->
 
-        <div class="copyright">
-            <p class="d-none d-lg-block">{{trans('footer.copyright_text')}}</p>
-            <span>{{trans('footer.copyright')}}</span>
-        </div>
-        <!-- footer content -->
+            <header>
+                @include('layouts.web.includes.header')
+            </header>
+        
+            <!-- main content -->
+                        
+                <div class="main-content">
+                    @yield('breadcrumb')
+                    @yield('content')
+                </div>
+
+            <!-- footer content -->
+
+            <footer>
+                @include('layouts.web.includes.footer')
+            </footer>
+
         @endif
         
-        <div class="btn-scroll-top">
+        <div class="btn-scroll-top d-none">
         	<span class="fa fa-angle-up"></span>
         </div>
     </div>

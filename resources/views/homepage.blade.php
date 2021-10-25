@@ -17,6 +17,7 @@
 
 @section('content')
 
+<div class="d-none">
 <section class="top-section">
 	<h1 class="title-1 text-center text-md-left">
 		<span>{{trans('hero.title')}}</span>
@@ -80,7 +81,7 @@
 	<p>{{trans('footer.copyright_text')}}</p>	
 </div>
 	
-
+</div>
 
 
 @endsection

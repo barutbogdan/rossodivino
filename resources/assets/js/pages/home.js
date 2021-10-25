@@ -23,28 +23,4 @@ $(document).ready(function(){
 		  }
 	  }
   });
-  $('.articles-slider').owlCarousel({
-		loop:true,
-		margin:8,
-		nav:true,
-		autoplay:true,
-		dots:false,
-		autoplayTimeout:8000,
-		autoplayHoverPause:false,
-		navText: ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
-		responsive:{
-			0:{
-				items:1
-			},
-			550:{
-				items:2
-			},
-			991:{
-				items:3
-			},
-			1200:{
-				items:3
-			}
-		}
-	});	
 })

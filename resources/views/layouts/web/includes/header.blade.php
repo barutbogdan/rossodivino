@@ -1,4 +1,66 @@
+<div class="container-fluid">
+	<div class="row align-items-center">
+		<div class="d-xl-block d-none col-xl-3 rossodivino_header_left">
+			<div class="rossodivino_inner">
+				<div class="rossodivino_inner_h_contact">
+					<div class="rossodivino_h_phone">{{settings('phone')}}0700 000 000</div>
+					<div class="rossodivino_h_wh">09:00 am – 22:00 pm</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-xl-6 rossodivino_header_center">
+			<div class="rossodivino_def_header">
+				<div class="rossodivino_logo_cont">
+					<a href="{{url('/')}}" title="{{settings('site_name')}}" class="rossodivino_image_logo"></a>
+				</div>
+				<nav class="rossodivino_menu_cont">
+					<ul id="menu-main-menu" class="rossodivino_menu d-flex flex-wrap align-items-center justify-content-center">
+						@foreach($menus as $menu)
+							<li class="back-content">
+								@include('partials.header.menu', ['parent' => $menu])
+								<!-- @include('partials.header.submenu', ['parent' => $menu, 'childrens' => $menu->childrens]) 
+								@include('partials.header.submenu', ['parent' => $menu, 'childrens' => $menu->servicesCategories])  -->
+							</li>
+						@endforeach
+					</ul>
+				</nav>
+				<div class="clear"></div>
+			</div>
+			<div class="mobile_header ">
+				<a href="{{url('/')}}"  title="{{settings('site-name')}}" class="rossodivino_image_logo"></a>
+				<a href="javascript:void(0)" class="btn_mobile_menu">
+					<span class="rossodivino_menu_line1"></span>
+					<span class="rossodivino_menu_line2"></span>
+					<span class="rossodivino_menu_line3"></span>
+				</a>
+			</div>
+			<div class="mobile_menu_wrapper">
+				<ul class="mobile_menu">
+					@foreach($menus as $menu)
+						<li class="back-content">
+							@include('partials.header.menu', ['parent' => $menu])
+							<!-- @include('partials.header.submenu', ['parent' => $menu, 'childrens' => $menu->childrens]) 
+							@include('partials.header.submenu', ['parent' => $menu, 'childrens' => $menu->servicesCategories])  -->
+						</li>
+					@endforeach
+				</ul>
+			</div>
+		</div>
+		<div class="d-none col-xl-3 rossodivino_header_right d-none">
+			<div class="rossodivino_inner">
+				<a href="cart.html">
+					<div class="rossodivino_shopping_cart">
+						<div class="rossodivino_total_price">$0.00</div>
+						<div class="rossodivino_total_items">0 items - View Cart</div>
+						<div class="rossodivino_cart_item_counter">0</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
 
+<div class="d-none">
 <div class="top-header d-flex d-lg-none">
 
 	<ul class="info-list">
@@ -50,4 +112,5 @@
 		</nav>
 
 	</div>
+</div>
 </div>

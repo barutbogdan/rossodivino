@@ -4,17 +4,17 @@ return [
     /*
      * Laravel-admin name.
      */
-    'name'      => 'Topsol',
+    'name'      => 'Rossodivino',
 
     /*
      * Logo in admin panel header.
      */
-    'logo'      => '<b>Topsol</b> Admin',
+    'logo'      => '<b>Rossodivino</b> Admin',
 
     /*
      * Mini-logo in admin panel header.
      */
-    'logo-mini' => '<b>Topsol</b>',
+    'logo-mini' => '<b>Rossodivino</b>',
 
     /*
      * Laravel-admin url prefix.

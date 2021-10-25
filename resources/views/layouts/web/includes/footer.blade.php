@@ -1,3 +1,4 @@
+<div class="d-none">
 <section id="footer">
 	<h2 class="aside-heading">{{trans('general.program-title')}}</h2>
 	<div class="footer-inner">
@@ -58,6 +59,6 @@
 		</div>
 	</div>
 </section>
-
+</div>
 @push('scripts')
 @endpush
